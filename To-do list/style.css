@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.container{
+    width: 25rem;
+    background-color: rgb(50, 52, 153);
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
+h1{
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+#writeToDo{
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 550;
+    width: 18rem;
+    padding: .2rem 0 .2rem .4rem;
+}
+.toDoBtn{
+    font-weight: 550;
+    border: none;
+    background-color: white;
+    height: 1.23rem;
+    cursor: pointer;
+    padding: .26rem .4rem 1.2rem .4rem;
+    border-radius: 2px;
+}
+.inp{
+    width: 87%;
+    margin-left: .9rem;
+
+}
+.list{
+    overflow: hidden;
+    width: 87%;
+    margin-left: .9rem;
+    margin-top: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.list li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background-color: rgb(36, 36, 99);
+    padding-left: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+.list li span{
+    margin-left: 1rem;
+    padding: 4px;
+    cursor: pointer;
+}
