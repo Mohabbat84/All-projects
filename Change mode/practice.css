@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  transition: all ease .6s;
+}
+#main{
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 1.8rem;
+  transition: all ease .6s;
+  background: #000;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+#main::before{
+  content: "W";
+  color: #000;
+  margin-left: 10px;
+}
+#main::after{
+  content: "B";
+  color: #fff;
+  margin-left: 30px;
+}
+#sec{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: all ease .6s;
+  z-index: 1;
+  position: absolute;
+}
+h1{
+  transition: all ease .6s;
+}
