@@ -5,7 +5,8 @@ let msg=document.querySelector(".msg");
 let resetBtn=document.querySelector("#reset");
 
 
-subBtn.addEventListener("click",()=>{
+subBtn.addEventListener("click",(e)=>{
+    e.preventDefault();
     if(height.value==""){
         msg.innerText="Please Enter Height";
         return;
@@ -32,7 +33,8 @@ subBtn.addEventListener("click",()=>{
         msg.innerText=`Extremely obese:BMI is ${bmi.toFixed(2)}`;
     }
 });
-resetBtn.addEventListener("click",()=>{
+resetBtn.addEventListener("click",(e)=>{
+    e.preventDefault();
     height.value="";
     weight.value="";
     msg.innerText="Result";
