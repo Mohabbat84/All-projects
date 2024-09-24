@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Expanse tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box">
+    <h1>Password Generator</h1>
+    <div class="input">
+      <label for="inp">Password length: </label>
+      <input type="text"id="inp">
+      <div class="checkboxes">
+        <div>
+          <input type="checkbox" id="ucl" class="all_checks">
+          <label for="ucl">include uppercase letters</label>
+        </div>
+        <div>
+          <input type="checkbox" id="lcl" class="all_checks">
+          <label for="lcl">include lowercase letters</label>
+        </div>
+        <div>
+          <input type="checkbox" id="nums" class="all_checks">
+          <label for="nums">include numbers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="symbol" class="all_checks">
+          <label for="symbol">include symbols</label>
+        </div>
+      </div>
+    </div>
+    <div class="btn_box">
+      <button id="btn">generate password</button>
+    </div>
+    <div id="password"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
